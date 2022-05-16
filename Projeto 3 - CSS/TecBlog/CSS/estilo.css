@@ -9,6 +9,95 @@ body{
 }
 header{
     text-align: center;
-    background: #eec614;
+    background: #f7b600;
+    color: white;
+}
+footer{
+    clear: both;
+    padding: 15px;
+    background: #ccc;
+    text-align: center;
+}
+a{
+    text-decoration: 0;
+}
+a:link, a:visited{
+    color: #f7b600;
+}
+a:hover{
+    border-bottom: 2px solid #f7b600;
+    border-radius: 1px;
+}
+#menu a:link, #menu a:visited{
+    margin: 0px 5px;
+    padding: 5px 12px;
+    color: white;
+}
+#menu a:hover{
+    color: #f7b600;
+    background: white;
+    border: 2px;
+    border-radius: 4px;
+}
+
+
+.data{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+hr{
+    color: #ccc;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+#corpo{
+    width: 920px;
+    margin: 10px auto;
+    padding: 15px;
+    height: auto;
+
+}
+#postagens{
+    width: 660px;
+    float: left;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+#lateral{
+    width: 240px;
+    float: right;
+}
+.lateral-conteudo{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.texto-reduzido{
+    font-size: 0.8em;
+    padding: 5px;
+}
+.branco{
     color: white;
 }
