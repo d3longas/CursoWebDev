@@ -58,12 +58,21 @@ ul a{
 	width: 200px;
 	height: 40px;
 	display: block;
-	background: url(./Imagens/menu.png) no-repeat left bottom;
+	background: #f7b600 url(./Imagens/menu.png) no-repeat left bottom;
 	color: #000;
 	text-decoration: none;
 	text-indent: 30px;
-	line-height: 42px;
+	line-height: 43px;
 }
 ul a:hover{
 	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+	border-color: #f99200;
+}
+
+li .borda{
+	border-top: 2px solid #f7b600;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
