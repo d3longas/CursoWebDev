@@ -1,0 +1,55 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #643d87 url(./Imagens/fundo.jpg) no-repeat;
+
+}
+
+#container{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.3);
+    text-align: center;
+}
+#container img{
+    /* The way i did
+    position:absolute;
+    left: 45%;
+    top: 10%;
+    */
+    /*the way that is more practical*/
+    width: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-left: 40px;
+    border: none;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+input.submit{
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    width: 90%;
+    height: 45px;
+    font-weight: bold;
+
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+}
+input.email{
+    background-image: url(./Imagens/icone-usuario.png);
+}
+input.password{
+    background-image: url(./Imagens/icone-cadeado.png);
+}
